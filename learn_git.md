@@ -17,6 +17,10 @@ A list of all the commands that you use whit Git
     // Message should be descriptive but not very long
     git diff <fileName>
     // Replace fileName with the name of file you want to check difference on
+    git remote add origin {url}
+    // replace {url} with the link of you GitHub Repository
+    git push -u origin master
+    // Will push your repository to the master branch
 
 
 NOTE:
@@ -25,6 +29,9 @@ NOTE:
 
     q
 
+
+* * *
+* * *
 
 
 # GitHub:
