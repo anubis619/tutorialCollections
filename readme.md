@@ -10,7 +10,8 @@ They are made so that it can help others and also me at the same time as you lea
 
 Content list:
 
-* [Git & GitHub tutorial](learn.md)
+1. [Git & GitHub tutorial](learn_git.md)
+2. [Markdown tutorial](learn.md)
 
 If you have questions or suggestions feel free to email me at: 
     [marius.a.voinescu@gmail.com](mailto:marius.a.voinescu@gmail.com)
