@@ -1,3 +1,6 @@
+# Learning MarkDown Language
+
+
 # This is a H1 heading
 
 This is a paragraph
@@ -9,6 +12,14 @@ about here but it will shon up on
 the same line  
 testting hard break with two spaces
 
+
+    # H1
+    ## H2
+    ### H3
+    #### H4
+    ##### H5
+    ###### H6
+
 # H1
 ## H2
 ### H3
@@ -17,8 +28,18 @@ testting hard break with two spaces
 ###### H6
 
 
+    Alt-H1
+    ====
+
 Alt-H1
 ====
+
+
+        Alt-H2
+        -----
+
+Alt-H2
+----
 
 Italics: _italic_ *italic*
 
