@@ -16,12 +16,22 @@ A list of all the commands that you use whit Git
     git commit -m "Message"
     // Message should be descriptive but not very long
     git diff <fileName>
-    // Replace fileName with the name of file you want to check differnece on
+    // Replace fileName with the name of file you want to check difference on
 
 
 NOTE:
   When opening git diff and it opens the git file, to close you will need to type:
 
 
-    :q
+    q
+
+
+
+# GitHub:
+  
+* Uses Git (copies or clones the repository)
+* Just one more computer that has a clone o the repository
+* Online. You need an internet connection active in order to push or pull.
+* Adds user management on the repositories
+* Tool Integration
 

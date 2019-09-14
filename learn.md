@@ -7,10 +7,10 @@ This is a paragraph
 
 Test second para
 
-This example will feature a breal
-about here but it will shon up on
+This example will feature a break
+about here but it will show up on
 the same line  
-testting hard break with two spaces
+testing hard break with two spaces
 
 
     # H1
