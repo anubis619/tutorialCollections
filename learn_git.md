@@ -21,6 +21,11 @@ A list of all the commands that you use whit Git
     // replace {url} with the link of you GitHub Repository
     git push -u origin master
     // Will push your repository to the master branch
+    git pull origin master
+    // pull changes from the master branch to origin branch locally
+    git branch --set-upstream-to=origin/<branch> master
+    //  The above command is used to set tracking information for this branch
+    // If you set the above command it will make the "git pull" command easier as it will already know where to pull
 
 
 NOTE:
