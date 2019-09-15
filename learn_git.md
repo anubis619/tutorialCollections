@@ -141,6 +141,18 @@ git reset HEAD <file>
 # If you hav staged the file already git checkout will no longer work t, so for that you will need to use git reset to unstage the file
 ```
 
+### Creating a new branch and switching to it:
+
+```bash
+git branch <name>
+
+# to check the branches use:
+git branch
+
+# to switch branches we will use a command already discussed above
+git checkout <branch name>
+```
+
 * If you have already pushed the information to your repository you can revert using the following command:
 
 ```bash
