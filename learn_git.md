@@ -11,6 +11,14 @@ A list of all the commands that you use whit Git
 
 ## Commands:
 
+
+* NOTE:
+  When using git diff or git log --graph and it opens the git file, to close you will need to press:
+
+  ```bash
+    q
+  ```
+
 ### Initialize a git repository from the terminal:
 
 ```bash
@@ -45,14 +53,6 @@ git commit -m "Message"
 git commit -a -m "Message"
 # Using the above command will add all the files to the staged thanks to the -a parameter. This can be used if you have modified files after you have already staged for example
 ```
-
-
-* NOTE:
-  When opening git diff and it opens the git file, to close you will need to type:
-
-  ```bash
-    q
-  ```
 
 * NOTE on git diff, git log and git show.
   Instead of the sha information, we can go ahead and use HEAD~n, where n is the number of commits behind the most recent commit
@@ -141,18 +141,6 @@ git reset HEAD <file>
 # If you hav staged the file already git checkout will no longer work t, so for that you will need to use git reset to unstage the file
 ```
 
-### Creating a new branch and switching to it:
-
-```bash
-git branch <name>
-
-# to check the branches use:
-git branch
-
-# to switch branches we will use a command already discussed above
-git checkout <branch name>
-```
-
 * If you have already pushed the information to your repository you can revert using the following command:
 
 ```bash
@@ -161,6 +149,45 @@ git checkout <sha> <file>
 # replace file with the file you want to revert
 
 ```
+
+### Branches
+
+#### Create Branch:
+
+```bash
+git branch <name>
+
+# to check the branches use:
+git branch
+```
+
+#### Switch to new branch
+
+```bash
+# to switch branches we will use a command already discussed above
+git checkout <branch name>
+```
+
+#### Merging Branches
+
+```bash
+git merge <branch to merge> <branch to merge into>
+```
+
+#### Delete Branch
+
+```bash
+git branch -d <branch you want to delete>
+```
+
+* * *
+
+### Get a log graph of the commits:
+
+```bash
+git log --graph
+```
+
 
 * * *
 * * *
@@ -184,6 +211,11 @@ Best practices:
 
 * Always have a working version of the project as the master branch
 * A best practice would be to have a master, test, and dev branch. Names might vary but their functionality will be the same more or less.
+
+## GitIgnore
+
+Is a file that can be configured to set Git and GitHub to ignore files or folders when pushing.
+
 
 Visual Studio Code extension that I recommend:
 
