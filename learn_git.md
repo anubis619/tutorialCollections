@@ -166,6 +166,9 @@ git branch
 ```bash
 # to switch branches we will use a command already discussed above
 git checkout <branch name>
+
+# to create and switch to a branch:
+git checkout -b <branch name>
 ```
 
 #### Merging Branches
